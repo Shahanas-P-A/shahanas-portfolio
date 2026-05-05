@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Shahanas P A — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Shahanas</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-tag">✦ Available for projects</div>
+          <h1>Hi, I'm <em>Shahanas P A</em></h1>
+          <p class="hero-role">Web Developer &amp; CS Student</p>
+          <p class="hero-desc">
+            Building responsive, user-friendly websites with <strong>HTML</strong>,
+            <strong>CSS</strong> &amp; <strong>JavaScript</strong> — one pixel at a time.
+          </p>
+          <div class="btn-group">
+            <a href="#contact" class="btn-primary">Get in Touch</a>
+            <a href="#projects" class="btn-outline">View Projects</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-frame">
+            <img src="sana.png" alt="Shahanas P A" />
+            <div class="online-badge"><span></span> Open to work</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-wrapper">
+        <div class="section-label"><span>About Me</span></div>
+        <h2 class="section-title">A little about myself</h2>
+        <div class="about-grid reveal">
+          <div class="about-photo-wrap">
+            <img src="new.png" alt="Shahanas P A" />
+            <div class="about-card">
+              <div class="num">2nd</div>
+              <p>Year CSE Student</p>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm <strong>Shahanas P A</strong>, a passionate and creative Web Developer
+              currently pursuing my B.Tech in Computer Science Engineering at
+              College of Engineering, Thalassery. I enjoy crafting responsive and interactive
+              websites using modern web technologies.
+            </p>
+            <h3 class="skills-heading">Skills</h3>
+            <div class="skill-row">
+              <div class="skill-meta"><span>HTML</span><span class="pct">90%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:90%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>CSS</span><span class="pct">80%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:80%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>C Programming</span><span class="pct">85%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>Python</span><span class="pct">85%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:85%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>Java</span><span class="pct">75%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:75%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-meta"><span>JavaScript</span><span class="pct">40%</span></div>
+              <div class="skill-track"><div class="skill-fill" style="width:40%"></div></div>
+            </div>
+            <h3 class="edu-heading">Education</h3>
+            <ul class="timeline">
+              <li>
+                <strong>2024 – Present</strong><br>
+                B.Tech in Computer Science, College of Engineering, Thalassery
+              </li>
+              <li>
+                <strong>2021 – 2023</strong><br>
+                Plus Two, GHSS Chathanur
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-wrapper">
+        <div class="section-label"><span>Projects</span></div>
+        <h2 class="section-title">Things I've built</h2>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-num">01</div>
+            <div class="project-icon">📦</div>
+            <h3 class="project-title">Product Expiry Tracker</h3>
+            <p class="project-desc">
+              A desktop-based application to track product expiry dates and manage inventory efficiently,
+              helping users monitor expired, critical, and safe products using real-time status calculation.
+            </p>
+            <ul class="project-features">
+              <li>Add, update, delete product records</li>
+              <li>Automatic expiry status — SAFE / WARNING / CRITICAL / EXPIRED</li>
+              <li>Color-coded table for easy visualization</li>
+              <li>Expiring soon filter (next 30 days)</li>
+              <li>MySQL database integration</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">Swing</span>
+              <span class="tech-tag">JDBC</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+          </div>
+          <div class="project-card reveal reveal-delay-1">
+            <div class="project-num">02</div>
+            <div class="project-icon">🏨</div>
+            <h3 class="project-title">Hotel Reservation System</h3>
+            <p class="project-desc">
+              A web-based hotel booking system that allows users to reserve rooms and manage bookings
+              efficiently. Admin can manage room availability and customer data through a clean dashboard.
+            </p>
+            <ul class="project-features">
+              <li>Room booking and cancellation system</li>
+              <li>Customer registration and login</li>
+              <li>Admin dashboard for room management</li>
+              <li>Booking history tracking</li>
+              <li>Database-driven dynamic system</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-inner">
+        <div class="section-label"><span>Contact</span></div>
+        <h2 class="section-title">Let's work together</h2>
+        <div class="contact-card reveal">
+          <form id="contactForm" onsubmit="handleSubmit(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-send" id="sendBtn">Send Message →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Designed &amp; built by <span>Shahanas P A</span> · 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
